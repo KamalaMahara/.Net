@@ -5,7 +5,7 @@ using Haha;
 
 class SingleDimension
 {
-  internal static void Main(string[] args)
+  internal static void SingleDimensional()
   {
     Console.WriteLine("Enter the size of the array:");
     int size = Convert.ToInt32(Console.ReadLine());

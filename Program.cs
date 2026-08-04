@@ -1,17 +1,12 @@
-﻿// class Program
-// {
-//   static void Main(string[] args)
-//   {
-//     int num;
-//     Console.WriteLine("Enter a number:");
-//     num = Convert.ToInt32(Console.ReadLine());
-//     if (num % 2 == 0)
-//     {
-//       Console.WriteLine("the number is even");
-//     }
-//     else
-//     {
-//       Console.WriteLine("the number is odd");
-//     }
-//   }
-// }
+using System;
+using ExampleNamespace;
+class Pogram
+{
+  static void Main(string[] args)
+  {
+    MethodOverLoading m = new MethodOverLoading();
+    m.Add(20, 40);
+    m.Add(20.5f, 40);
+
+  }
+}
