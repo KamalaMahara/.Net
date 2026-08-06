@@ -33,16 +33,27 @@ class Pogram
 
     //hierarchical inheritance
 
-    Human h = new Human();
-    h.Speak();
+    // Human h = new Human();
+    // h.Speak();
 
-    Man m = new Man();
-    m.Speak();
-    m.Strong();
+    // Man m = new Man();
+    // m.Speak();
+    // m.Strong();
 
-    Woman w = new Woman();
-    w.Speak();
-    w.Beautiful();
+    // Woman w = new Woman();
+    // w.Speak();
+    // w.Beautiful();
+
+
+
+    //structure
+
+    Employee emp;
+    emp.name = "John Doe";
+    emp.age = 30;
+    emp.roll = 101;
+    emp.Display();
+
 
   }
 }
