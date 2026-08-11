@@ -1,5 +1,6 @@
 using System;
 using ExampleNamespace;
+using ConstructorEg;
 class Pogram
 {
   static void Main(string[] args)
@@ -48,11 +49,23 @@ class Pogram
 
     //structure
 
-    Employee emp;
-    emp.name = "John Doe";
-    emp.age = 30;
-    emp.roll = 101;
-    emp.Display();
+    // Employee emp;
+    // emp.name = "John Doe";
+    // emp.age = 30;
+    // emp.roll = 101;
+    // emp.Display();
+
+
+    // copy constructor
+    // CopyConstructor c1 = new CopyConstructor(20, "km");
+    // CopyConstructor c2 = new CopyConstructor(c1);
+
+
+    //Property
+
+    Property p = new Property();
+    p._Name = "kmla";          //set
+    Console.WriteLine(p._Name);  //get
 
 
   }
